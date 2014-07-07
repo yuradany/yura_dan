@@ -1,0 +1,663 @@
+/* reset browsers settings*/
+@import url(reset.css);
+
+/* my fonts*/
+@font-face {
+	font-family: Nikaia_italic;
+	src: url(fonts/Nikaia_italic.woff);
+}
+@font-face {
+	font-family: Titillium_Regular;
+	src: url(fonts/Titillium_Regular.otf);
+}
+
+
+/* main block */
+.wrapper {
+	width: 1200px;
+	height: 2000px;
+	margin: 0 auto;
+	background: url(../images/bg.png);
+}
+
+/* begin block header*/
+.header {
+	width: 960px;
+	height: 75px;
+	margin: 0 auto;	
+	background: #202224; /* old browsers*/
+    background: linear-gradient(to top, #202224, #272a2c);
+	border-radius: 0px 0px 10px 10px;
+	box-shadow: 0px 0px 2px 1px black;	
+	position: relative;
+}
+.year {
+	width: 140px;
+	height: 35px;
+	border-right: 1px solid #e6e3bb;
+	font-family: Nikaia_italic;
+	font-size: 30px;
+	color: #e6e3bb;
+	position: absolute;
+	left: 20px;
+	bottom: 25px;	
+}
+.navigation {
+	width: 380px;
+	height: 20px;
+	font-family: Myriad Pro;
+	font-size: 14px;
+	position: absolute;
+	left: 180px;
+	top: 28px;
+}
+.navigation a {
+	color: #e6e3bb;	
+}
+.navigation li a.active {
+	color: #8e4423;
+}
+.navigation li {
+	float: left;
+	margin-right: 32px; 
+}
+.welcome {
+	width: 180px;
+	height: 25px;
+	background: #232528; /* old browsers*/
+    background: linear-gradient(to top, #232528, #1b1d1f);
+	border-radius: 5px 5px 5px 5px; 
+	border-bottom: 1px solid #69685e;
+	position: absolute;
+	top: 25px;
+	right: 150px;	
+	text-align: center;
+	line-height: 22px;
+	font-family: Myriad Pro;
+	font-size: 14px;
+	color: #7b7a6d;
+}
+.login_user {
+	color: #8e4423;
+}
+.sign_button {
+	width: 110px;
+	height: 25px;
+	background: #994b27; /* old browsers*/
+    background: linear-gradient(to top, #833d1f, #9f4e28);
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0px 0px 1px 3px #9f4e28 inset;
+	position: absolute;
+	top: 25px;
+	right: 28px;
+	text-align: center;	
+	line-height: 22px;
+	cursor: pointer;
+}
+.sign_button a {
+	font-family: Myriad Pro;
+	font-size: 14px;
+	color: #e6e3bb;		
+}
+/* end block header */
+
+/* title under header*/
+.title {
+	width: 100%;
+	height: 125px;
+	font-family: Nikaia_italic;
+	font-size: 48px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 36px;
+	color: #e6e3bb;
+}
+
+/* begin content block*/
+/* begin main content block*/
+.content {
+	width: 960px;
+	height: 1700px;
+	margin: 0 auto;
+}
+.main_content {
+	width: 100%;
+	height: 568px;	
+	background: #242729;
+	border-top: 1px solid #393b3d;
+	border-radius: 10px 10px 0px 0px;
+}
+.title_main_content {
+	width: 940px;
+	height: 22px;
+	margin: 0 auto;
+	border-bottom: 1px solid #393b3d;
+	font-family: Myriad Pro;
+	font-size: 13px;
+	color: #7b7a6d;
+	padding-top: 10px;
+}
+.active_page {
+	color: #8e4423;
+}
+.info {
+	width: 875px;
+	height: 340px;
+	margin: 0 auto;
+	border-bottom: 1px solid black;
+}
+.our_mission {
+	width: 454px;
+	height: 339px;
+	float: left;
+	position: relative;
+	
+}
+.our_mission p {
+	padding: 0px 35px 20px 0px;
+	font-family: Nikaia_italic;
+	font-size: 14px;
+	color: #7b7a6d;
+}
+.our_mission h1 {
+	font-family: Myriad Pro;
+	font-size: 30px;
+	font-weight: bold;
+	color: #8e4423;
+	padding: 44px 0px 0px 44px;
+}
+.our_mission h5 {
+	font-family: Myriad Pro;
+	font-style: italic;
+	font-size: 12px;
+	color: #646363;
+	padding: 3px 0px 20px 44px;
+}
+.ico_om
+{
+	width: 24px;
+	height: 24px;
+	background: url(../images/ico_info.png);
+	position: absolute;
+	top: 54px;
+}
+.read_button {
+	width: 90px;
+	height: 28px;
+	position: absolute;
+	bottom: 20px;	
+	background: linear-gradient(to top, #833d1f, #9f4e28);
+    border-radius: 5px 5px 5px 5px;   
+	text-align: center;	
+	line-height: 25px;
+	cursor: pointer;
+}
+.read_button a {
+	font-family: Myriad Pro;
+	font-size: 14px;
+	color: #e6e3bb;
+}
+.video {
+	width: 410px;
+	height: 185px;
+	float: left;
+	border: 5px solid #8e4423;
+	margin-top: 20px;
+}
+.under_video {
+	position: relative;
+	width: 420px;
+	float: left;
+}
+.ico_video
+{
+	width: 20px;
+	height: 25px;
+	background: url(../images/ico_video.png);
+	position: absolute;
+	top: 23px;
+}
+.under_video h3 {
+	font-family: Myriad Pro;
+	font-size: 18px;
+	color: #8e4423;
+	padding: 20px 0px 0px 35px;
+}
+.under_video h5 {
+	font-family: Myriad Pro;
+	font-style: italic;
+	font-size: 12px;
+	color: #646363;
+	padding: 3px 0px 15px 35px;
+}
+.under_video p {
+	font-family: Myriad Pro;
+	font-size: 13px;
+	color: #7b7a6d;	
+	margin: 0;
+	padding-bottom: 20px;	
+}
+.gizmodo_area {
+	width: 880px;
+	margin: 0 auto;
+	border-top: 1px solid #393b3d;
+	position: relative;
+}
+.gizmodo {
+	width: 220px;
+	float: left;
+}
+.gizmodo h3 {
+	font-family: Myriad Pro;
+	font-size: 18px;
+	color: #8e4423;
+	padding: 38px 0px 0px 46px;
+}
+.gizmodo h5 {
+	font-family: Myriad Pro;
+	font-style: italic;
+	font-size: 12px;
+	color: #646363;
+	padding:  0px 0px 20px 46px;
+}
+.gizmodo p {
+	margin: 0;
+	padding-bottom: 20px;
+	font-family: Nikaia_italic;
+	font-size: 14px;
+	color: #7b7a6d;	
+}
+.ico_giz {
+	width: 24px;
+	height: 24px;
+	background: url(../images/ico_info.png);
+	position: absolute;
+	top: 44px;
+}
+/* end main content block*/
+
+/*work block*/
+.RWD {
+	width: 960px;
+	height: 600px;
+	background: #e6e3bb;
+	box-shadow: 0px 0px 1px 1px #75381d inset;
+	position: relative;
+}
+.orange_line1 {
+	width: 100%;
+	height: 27px;
+	background: url(../images/orange_line.png);
+}
+.research {
+	margin-left: 20px;
+	float: left;
+	width: 305px;
+	height: 352px;
+	position: relative;
+}
+.img_research {	
+	width: 106px;
+	height: 106px;
+	background: url(../images/research.png);
+	position: absolute;
+	top: 15px;
+	left: 100px;
+}
+.work {
+	float: left;
+	width: 305px;
+	height: 352px;	
+	position: relative;
+}
+.img_work {
+	width: 106px;
+	height: 106px;
+	background: url(../images/work.png);
+	position: absolute;
+	top: 15px;
+	left: 100px;
+}
+.deliver {
+	float: left;
+	width: 305px;
+	height: 352px;
+	position: relative;
+}
+.img_deliver {
+	width: 106px;
+	height: 106px;
+	background: url(../images/deliver.png);
+	position: absolute;
+	top: 15px;
+	left: 100px;
+}
+.RWD h3 {
+	font-family: Nikaia_italic;
+	font-size: 18px;
+	color: #8e4423;
+	text-align: center;
+	padding-top: 145px;
+}
+.RWD p {
+	display: block;
+	width: 200px;
+	margin: 0 auto;
+	text-align: center;
+	font-family: Myriad Pro;
+	font-size: 13px;
+	color: #7b7a6d;	
+	line-height: 16px;
+}
+.learn_button {
+	width: 92px;
+	height: 30px;
+	background: #232628; /* old browsers */
+    background: linear-gradient(to top, #232628, #3b4043);
+    border-radius: 5px 5px 5px 5px;
+    border-bottom: #7e8183;
+	text-align: center;
+	line-height: 25px;	
+	cursor: pointer;
+	position: absolute;
+	top: 272px;
+	left: 106px;
+}
+.learn_button a {
+	font-family: Myriad Pro;
+	font-size: 13px;
+	color: #e6e3bb;
+}
+.testimonials {
+	margin-left: 20px;
+	float: left;
+	width: 920px;
+	height: 178px;
+	background: #242729;
+	position: absolute;
+	bottom: 25px;
+}
+.orange_line2 {
+	float: left;
+	width: 100%;
+	height: 10px;
+	background: #7d3a1e; /* old browsers*/
+    background: linear-gradient(to top, #7d3a1e, #9f4e28);
+    border-top: 1px solid #673e2b;
+	position: absolute;
+	bottom: 0px;
+}
+/* end work block*/
+
+/*begin bottom content*/
+.bottom_content {
+	width: 960px;
+	height: 532px;
+	background: #242729;
+	border-radius: 0px 0px 10px 10px;
+	position: relative;
+}
+.pharetra{
+	margin-top: 10px;
+	width: 408px;
+	height: 206px;
+	border-right: 1px solid #8e4423;
+	float: left;
+}
+.pharetra h3 {
+	font-family: Titillium_Regular;
+	font-style: italic;
+	font-size: 18px;
+	color: #8e4423;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+.pharetra p {
+	font-family: Myriad Pro;
+	font-size: 13px;
+	color: #7b7a6d;
+	padding: 5px 20px 0px 20px;
+}
+.rectangle {
+	width: 140px;
+	height: 85px;
+	border: 5px solid #8e4423;
+	float: right;
+	margin: 24px 20px 15px 18px;
+}
+.newsletter {
+	width: 512px;
+	height: 206px;
+	float: left;
+}
+.newsletter h3 {
+	font-family: Titillium_Regular;
+	font-style: italic;
+	font-size: 18px;
+	color: #8e4423;
+	padding-top: 30px;
+	padding-left: 20px;
+}
+.email_company {
+	width: 284px;
+	height: 38px;
+	border: 1px solid #3f3e3d;
+	background: #26292b; /* old browsers*/
+    background: linear-gradient(to top, #2a2d2f, #232628);
+	border-radius: 5px 5px 5px 5px;
+	margin-left: 20px;
+	margin-top: 10px;	
+}
+.email_company span {
+	display: block;
+	width: 190px;
+	float: left;
+	color: #6f6f64;
+	font-family: Myriad Pro;
+	font-style: italic;
+	font-size: 14px;
+	margin: 10px 0px 0px 10px;
+}
+.sign2_button a {
+	font-family: Nikaia_italic;
+	font-size: 13px;
+	color: #e6e3bb;	
+}
+.sign2_button {
+	width: 80px;
+	height: 35px;
+	background: #994b27; /* old browsers*/
+    background: linear-gradient(to top, #833d1f, #9f4e28);
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0px 0px 1px 3px #9f4e28 inset;
+	float: right;
+	margin-top: 1px; 
+	text-align: center;
+	line-height: 30px;
+	cursor: pointer;
+	text-align: center;	
+}
+
+.follow {
+	width: 60px;
+	height: 68px;
+	background: #272a2c; /* old browsers*/
+    background: linear-gradient(to top, #2b2d2f, #232628);
+	border: 1px solid #3f3e3d;
+	border-radius: 5px 5px 5px 5px;
+	margin-left: 20px;
+	margin-top: 30px;
+	float: left;
+	position: relative;
+}
+.twit {
+	width: 29px;
+	height: 29px;
+	background: url(../images/ico_twit.png);
+	margin: 7px 0px 0px 16px;
+}
+.follow_button {
+	width: 58px;
+	height: 20px;
+	background: #994b27; /* old browsers*/
+    background: linear-gradient(to top, #833d1f, #9f4e28);
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0px 0px 1px 3px #9f4e28 inset;
+	cursor: pointer;
+	position: absolute;
+	bottom: 0px;
+	text-align: center;	
+	line-height: 15px;
+	margin: 0px 1px 1px 1px;
+	
+}
+.follow_button a {
+	font-family: Nikaia_italic;
+	font-size: 13px;
+	color: #ffffff;		
+}
+.info_twit {
+	width: 415px;
+	height: 68px;
+	border: 1px solid #3f3e3d;
+	background: #272a2c; /* old browsers*/
+    background: linear-gradient(to top, #2b2d2f, #232628);
+	border-radius: 5px 5px 5px 5px;
+	margin: 30px 0px 0px 8px;
+	float: left;	
+}
+.info_twit span {
+	display: block;
+	font-family: Myriad Pro;
+	font-size: 14px;
+	font-style: italic;
+	color: #6f6f64;	
+	margin: 15px 0px 0px 20px;
+}
+.info_twit a {
+	font-family: Myriad Pro;
+	font-size: 14px;
+	font-style: italic;
+	color: #e6e3bb;
+}
+.ico_retwit {
+	width: 27px;
+	height: 27px;
+	background: url(../images/ico_retwit.png);
+	float: right;
+	cursor: pointer;
+}
+.sponsor {
+	width: 960px;
+	height: 260px;
+	background: url(../images/sponsor.png);
+	position: absolute;
+	bottom: 50px;
+}
+.sponsor h3 {
+	font-family: Nikaia_italic;
+	font-size: 18px;
+	color: #8e4423;
+	text-align: center;	
+}
+.sponsor ul {
+    padding: 0;
+    margin-left: 0px;
+    margin-top: 0px;
+    font-family: Myriad Pro;
+	font-size: 14px;
+}
+.sponsor li{	
+	margin-bottom: 18px;
+	text-align: center;
+}
+.sponsor a {
+	color: #4f504b;	
+}
+.sponsor hr {
+	border: none; 
+    background-color: #7b7a6d; 
+    height: 1px;
+}
+.flickr {
+	width: 280px;
+	height: 220px;
+	float: left;
+	margin: 50px 0px 0px 20px;
+}
+.flickr h3 {
+	text-align: left;
+	padding-left: 12px;
+}
+.flickr li {
+	padding: 0;
+	margin-bottom: 12px;
+}
+.flickr hr {
+	width: 270px;
+	float: left;
+	margin-bottom: 8px;
+}
+.square {
+	display: block;
+	width: 48px;
+	height: 48px;
+	border: 5px solid #8e4423;
+	outline: solid 1px #242729;
+	background: #242729;
+	float: left;
+	margin-right: 12px;
+	margin-bottom: 12px;
+}	
+.clients {
+	width: 195px;
+	height: 220px;
+	float: left;	
+	margin: 50px 0px 0px 38px;
+}
+.clients ul {
+	text-align: center;
+}
+.clients li {
+	padding: 0;
+	margin-bottom: 12px;
+}
+.friends {
+	width: 195px;
+	height: 220px;	
+	float: left;
+	margin: 50px 0px 0px 38px;
+}
+.pages {
+	width: 136px;
+	height: 220px;	
+	float: left;
+	margin: 50px 0px 0px 38px;		 
+}
+
+.footer {
+	width: 100%;
+	height: 50px;
+	position: absolute;
+	bottom: 0;
+}
+
+.footer span {
+	display: block;
+	padding: 16px 20px 0px 24px;
+	color: #725142;
+	font-family: Myriad Pro;
+	font-size: 12px;	
+}
+.copyright {
+	float: left;
+}
+.faq {
+	float: right;
+}
+.faq a {
+	padding: 0px 10px 0px 10px;
+	color: #6e4f41;
+}
+/* end content block*/
+/* end */
